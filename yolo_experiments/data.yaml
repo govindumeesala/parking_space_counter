@@ -1,0 +1,14 @@
+# data.yaml for YOLOv8 parking‑slot detection
+
+# Paths are relative to this YAML file
+train: ./datasets/train/images
+val:   ./datasets/val/images
+test:  ./datasets/test/images
+
+# Number of classes
+nc: 2
+
+# Class names (index 0 → empty/free, 1 → occupied)
+names:
+  0: empty
+  1: occupied
