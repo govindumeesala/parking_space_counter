@@ -24,6 +24,8 @@ This project implements an automated parking slots identification and tracking m
 
 ## Dataset
 The dataset can be accessed from [this Google Drive link](https://drive.google.com/drive/folders/1CjEFWihRqTLNUnYRwHXxGAVwSXF2k8QC). It contains parking lot images with annotated parking slots and their occupancy status.
+
+
 **For YOLO-based experiments, see the [Kaggle PKLot dataset](https://www.kaggle.com/datasets/blanderbuss/parking-lot-dataset).**
 
 
