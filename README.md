@@ -3,6 +3,7 @@
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Dataset](#dataset)
+- [Pre-trained Models](#pre-trained-models)
 - [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Workflow](#workflow)
@@ -27,6 +28,14 @@ The dataset can be accessed from [this Google Drive link](https://drive.google.c
 
 
 **For YOLO-based experiments, see the [Kaggle PKLot dataset](https://www.kaggle.com/datasets/blanderbuss/parking-lot-dataset).**
+
+
+## Pre-trained Models
+All three models (YOLOv8, ResNet Model A, and ResNet Model B) can be downloaded from [this Google Drive link](https://drive.google.com/drive/folders/1NiUcyLTjmBCH5NyZxVDz-BMt2oKCJrlX?usp=drive_link).
+
+- **YOLOv8 Model**: Trained on PKLot dataset (99.42% mAP50)
+- **ResNet Model A**: Standard ResNet-18 (97.82% accuracy)
+- **ResNet Model B**: Enhanced ResNet-18 with augmentations (99.02% accuracy)
 
 
 ## Project Structure
