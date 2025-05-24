@@ -3,3 +3,4 @@
 /venv
 /yolo_experiments/runs/val/test_preds/labels
 /figures
+/submission

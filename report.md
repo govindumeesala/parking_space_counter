@@ -88,12 +88,12 @@ Efficient parking management is a pressing need in rapidly urbanizing environmen
 
 - **Challenge:**  
   When generating `slots.json` from binary mask images, many parking spaces were extremely close together. Using contour detection often resulted in merged bounding boxes, making it difficult to separate individual slots accurately.
-  **Figure 3:**Merged slots when used cotour detection
+  **Figure 3:** Merged slots when used cotour detection
   ![Slots from contour detection](./src/detect_classify_count_slots_for_given_img/utils/pk_slots_contours.jpg)
 
 - **Solution:**  
   We switched from contour-based detection to using **connected components analysis** (see [`generate_slots_json.py`](src/detect_classify_count_slots_for_given_img/utils/generate_slots_json.py)), which provided better separation of adjacent slots and improved the accuracy of slot localization.
-  **Figure 4:**Exact slots localization by using connected components
+  **Figure 4:** Exact slots localization by using connected components
   ![Slots from contour detection](./src/detect_classify_count_slots_for_given_img/utils/pk_slots_annotated.jpg)
 
 ### 4.3 Imbalanced Slot Crops in Real-World Images
