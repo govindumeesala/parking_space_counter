@@ -11,7 +11,6 @@
 - [Usage](#usage)
 - [Model Training Details](#model-training-details)
 - [YOLO Experiments](#yolo-experiments)
-- [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 
@@ -245,9 +244,6 @@ python src/detect_classify_count_slots_for_given_img/slot_classifier.py '
 - Loss Function: Cross-entropy loss
 - Batch Size: 32
 - Early Stopping Patience: 2 epochs (Model B only)
-
-## Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Acknowledgments
 - Dataset providers
